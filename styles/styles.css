@@ -1,0 +1,9 @@
+/* Exemple de style personnalisé pour ton portfolio */
+body {
+  font-family: "Arial", sans-serif;
+}
+.cv {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}

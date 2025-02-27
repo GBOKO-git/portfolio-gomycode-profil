@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portfolio</title>
+    <!-- CDN Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body class="bg-gray-50 font-sans">
+    <!-- En-tête -->
+    <header class="bg-blue-600 text-white py-6">
+      <div class="container mx-auto px-6 flex justify-between items-center">
+        <div class="flex gap-2">
+          <img class="cv" src="./assets/img/photo CV.png" alt="" />
+          <h2 class="font-bold mt-3">Mon Portfolio</h2>
+        </div>
+        <nav>
+          <ul class="flex space-x-6">
+            <li><a href="#intro" class="hover:text-gray-200">Accueil</a></li>
+            <li><a href="#projects" class="hover:text-gray-200">Projets</a></li>
+            <li>
+              <a href="#skills" class="hover:text-gray-200">Compétences</a>
+            </li>
+            <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Introduction -->
+    <section id="intro" class="py-20 bg-white text-center">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-gray-800 mb-4">
+          Salut, je suis AMARA GBOKO ANZOUMANAN
+        </h2>
+        <p class="text-lg text-gray-600 mb-8">
+          Développeur Full Stack passionné par la création de solutions web
+          modernes et performantes.
+        </p>
+        <a
+          href="#contact"
+          class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300"
+          >Contactez-moi</a
+        >
+      </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projects" class="py-20 bg-gray-100">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">
+          Mes Projets
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Exemple de projet -->
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img
+              src="assets/img/portfolio.png"
+              alt="Projet 1"
+              class="w-full h-40 object-cover rounded-lg mb-4"
+            />
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Portfolio Développeur Junior Full Stack
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Ce portfolio présente mes compétences en tant que développeur
+              junior full stack, avec un design moderne et responsive réalisé
+              avec Tailwind CSS. Il met en avant mes projets personnels, mes
+              compétences techniques (HTML, CSS, JavaScript, Node.js, React,
+              etc.) et mon parcours professionnel. L'interface est soignée et
+              optimisée pour une navigation fluide, permettant aux recruteurs de
+              découvrir mes réalisations et d'entrer en contact avec moi
+              facilement.
+            </p>
+            <a
+              href="https://tailwindcss-check-point.vercel.app/"
+              class="text-blue-600 hover:text-blue-800"
+            >
+              voir le site ici!</a
+            >
+          </div>
+          <!-- Ajoute de projets bootstrap 2-->
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img
+              src="assets/img/Checkbootstrap.png"
+              alt="Projet 1"
+              class="w-full h-40 object-cover rounded-lg mb-4"
+            />
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Site Web de E-Commerce
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Ce projet consiste en la création d'un site web de e-commerce
+              fonctionnel, conçu pour offrir une expérience utilisateur fluide .
+              Le site permet aux utilisateurs de naviguer, consulter des
+              produits. Il est entièrement conçu avec Bootstrap, ce qui assure
+              une mise en page responsive, adaptée à tous les appareils
+              (ordinateurs, tablettes, smartphones).
+            </p>
+            <a
+              href="https://gboko-git.github.io/boutique_e-commerce/"
+              class="text-blue-600 hover:text-blue-800"
+              >voir le site ici!</a
+            >
+          </div>
+
+          <!-- Ajoute d'autres projets ici -->
+
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img
+              src="assets/img/Checkcss.png"
+              alt="Projet 1"
+              class="w-full h-40 object-cover rounded-lg mb-4"
+            />
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Site Web d'Aviation
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Ce site web est dédié à l'aviation, offrant des informations sur
+              les destinations, les horaires de vol et les services proposés par
+              la compagnie. Réalisé avec Bootstrap, le design est entièrement
+              responsive, permettant une expérience utilisateur optimale sur
+              tous les appareils. Il permet aux utilisateurs de consulter les
+              offres de vols, de découvrir des informations sur les avions .
+            </p>
+            <a
+              href="https://gboko-git.github.io/WebsiteTravelAgency/"
+              class="text-blue-600 hover:text-blue-800"
+            >
+              voir le site ici!</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="skills" class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">
+          Mes Compétences
+        </h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
+          <div class="text-center">
+            <img
+              src="assets/logos/html.jpg"
+              alt="HTML"
+              class="w-20 mx-auto mb-4"
+            />
+            <p class="text-gray-600">HTML</p>
+            <span
+              >Maîtrise de la structure de base des pages web et du balisage
+              sémantique.</span
+            >
+          </div>
+          <div class="text-center">
+            <img
+              src="assets/logos/css3.png"
+              alt="CSS"
+              class="w-20 mx-auto mb-4"
+            />
+            <p class="text-gray-600">CSS</p>
+            <span
+              >Connaissance des concepts de mise en page, des flexbox, grid
+              system, et des animations.</span
+            >
+          </div>
+          <div class="text-center">
+            <img
+              src="assets/logos/javascript.jpg"
+              alt="JavaScript"
+              class="w-20 mx-auto mb-4"
+            />
+            <p class="text-gray-600">JavaScript</p>
+            <span
+              >Maîtrise du langage pour créer des interactions dynamiques sur le
+              front-end.</span
+            >
+          </div>
+          <div class="text-center">
+            <img
+              src="assets/logos/NODEJS.jpg"
+              alt="Node.js"
+              class="w-20 mx-auto mb-4"
+            />
+            <p class="text-gray-600">Node.js</p>
+            <span
+              >Connaissance de l'environnement JavaScript côté serveur pour
+              créer des applications web robustes.</span
+            >
+          </div>
+          <!-- Ajoute d'autres compétences ici -->
+        </div>
+      </div>
+
+      <!-- Framework -->
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">
+          Frameworks !
+        </h2>
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 text-center lg:grid-cols-4 gap-8 justify-center items-center"
+        >
+          <div class="text-center">
+            <img
+              src="assets/logos/tailwindcss.jpg"
+              alt="CSS"
+              class="w-20 mx-auto mb-4"
+            />
+            <p class="text-gray-600">CSS</p>
+            <span
+              >Expérience avec des frameworks comme Tailwind CSS pour créer des
+              designs responsives et modernes.</span
+            >
+          </div>
+          <div class="text-center">
+            <img
+              src="assets/logos/bootstrap.jpg"
+              alt="CSS"
+              class="w-20 mx-auto mb-4"
+            />
+            <p class="text-gray-600">CSS</p>
+            <span
+              >Expérience avec des frameworks comme Bootstrap pour créer des
+              designs responsives et modernes.</span
+            >
+          </div>
+          <div class="text-center">
+            <img
+              src="assets/logos/react.png"
+              alt="JavaScript"
+              class="w-20 mx-auto mb-4"
+            />
+            <p class="text-gray-600">React.js</p>
+            <span
+              >Actuellement, je suis en train d'apprendre React.js pour
+              améliorer mes compétences en développement front-end.
+            </span>
+          </div>
+          <div class="text-center">
+            <img
+              src="assets/logos/express.jpeg"
+              alt="Node.js"
+              class="w-20 mx-auto mb-4"
+            />
+            <p class="text-gray-600">Express.js</p>
+            <span
+              >Maîtrise de ce framework pour gérer les routes, les middleware,
+              et créer des API RESTful</span
+            >
+          </div>
+          <!-- Ajoute d'autres compétences ici -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-gray-100">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Contactez-moi</h2>
+        <p class="text-lg text-gray-600 mb-8">
+          Tu as un projet ou une question ? N'hésite pas à me contacter !
+        </p>
+        <form action="#" method="POST" class="max-w-md mx-auto">
+          <input
+            type="text"
+            name="name"
+            placeholder="Ton Nom"
+            class="w-full p-3 mb-4 border rounded-lg"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Ton Email"
+            class="w-full p-3 mb-4 border rounded-lg"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Ton Message"
+            class="w-full p-3 mb-4 border rounded-lg"
+            required
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300"
+          >
+            Envoyer
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white text-center py-4">
+      <p>&copy; 2025 GBOKO ANZOUMANAN AMARA. Tous droits réservés.</p>
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
